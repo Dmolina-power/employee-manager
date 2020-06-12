@@ -24,5 +24,6 @@ CREATE TABLE employee (
 );
 
 SELECT * FROM department;
-SELECT * FROM role;
+
+SELECT * FROM employee_role;
 SELECT * FROM employee;
