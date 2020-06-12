@@ -43,7 +43,7 @@ function runManager() {
           addRole();
           break;
 
-        case "Add an Employee":
+        case "Add an employee":
           addEmployee();
           break;
 
@@ -81,7 +81,7 @@ function addDepartment() {
     .then(function (answer) {
       connection.query(
         "INSERT INTO department (name) values(?)",
-        [response.department],
+        [answer.department],
         function (err, res) {
           if (err) throw err;
 

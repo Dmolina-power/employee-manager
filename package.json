@@ -1,0 +1,28 @@
+{
+  "name": "employee-manager",
+  "version": "1.0.0",
+  "description": "![GitHub followers](https://img.shields.io/github/followers/dmolina-power)    ![GitHub repo size](https://img.shields.io/github/repo-size/dmolina-power/employee-manager)",
+  "main": "employeemanager.js",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.1.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmolina-power/employee-manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dmolina-power/employee-manager/issues"
+  },
+  "homepage": "https://github.com/Dmolina-power/employee-manager#readme"
+}
